@@ -1,12 +1,14 @@
 # pix2pix-keras
-Pix2pix implementation in keras.    
+Pix2pix implementation in keras. 
+Forked from williamfalcon's one.
 
 Original paper: [Image-to-Image Translation with Conditional Adversarial Networks (pix2pix)](https://arxiv.org/pdf/1611.07004.pdf)    
 Paper Authors and Researchers: Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros    
 
 ### Changed Point (Kajiyu)
-- optimize to python2.7 and keras2.0
-- enable to use keras-gpu in Ubuntu16.04
+- Optimized to python2.7 and keras2.0.
+- Enabled to use keras-gpu in Ubuntu16.04.
+- Used tensorflow instead of theano, for backend.
 
 ### To run    
 ```bash
