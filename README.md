@@ -4,6 +4,10 @@ Pix2pix implementation in keras.
 Original paper: [Image-to-Image Translation with Conditional Adversarial Networks (pix2pix)](https://arxiv.org/pdf/1611.07004.pdf)    
 Paper Authors and Researchers: Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros    
 
+### Changed Point (Kajiyu)
+- optimize to python2.7 and keras2.0
+- enable to use keras-gpu in Ubuntu16.04
+
 ### To run    
 ```bash
 # clone repo and step into root dir
@@ -14,7 +18,7 @@ cd pix2pix-keras/pix2pix
 python utils/facades_dataset.py
 
 # setup conda(or virtual env)
-conda create -n pix python=3.4  
+conda create -n pix python=2.7  
 source activate pix
 
 # install requirements
